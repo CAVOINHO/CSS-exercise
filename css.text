@@ -1,0 +1,18 @@
+- text-align: center, left, right, justify;
+- text-decoration: none | underline: gach chan | overline: gach dau | line-through: gach than.
+- text-transform: uppercase: caps lock | lowercase: turn off the caps lock | capitalize: In hoa chu cai dau.
+- text-indent: 10px : tab.
+- letter-spacing: 5px: khoang cach tung ki tu.
+- word-spacing: 10px: khoang cai tung tu.
+- line-height: 1.2 : khoang cach giua cac dong.
+- text-shadow: x y color blur: 2px 2px rgba(0,0,0,0.2): do bong. 
+- font-family: font 1, font 2, sans-serif 
+- font-style: normal: | italic: 
+- font-size: 18px:
+- background-color: color: mau nen | transparent: khong mau | gradient.
+- font-weight: normal: | bold : | 400: | 600: | 700: | 900: |
+- background-image: url(./picture.jpg)
+- background-size: 20% : lap
+- background-repeat: repeat-x: lap anh theo chieu ngang | repeat-y: theo chieu y 
+- position: static* | relative: di chuyen tuong doi so voi vi tri cua doi tuong | fixed: di chuyen so voi vi tri
+cua trinh duyet : "lam thanh menu" | absolute:can chinh tuong doi so voi vi tri cua lop cha chua relative 

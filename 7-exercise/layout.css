@@ -1,0 +1,10 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /*cot 1 chiem 2 phan cot 2 chiem 1 phan*/
+}
+
+.header, .footer {
+    grid-column: 1/3
+    /*bat dau la cot 1 ket thuc la cot 3*/
+}

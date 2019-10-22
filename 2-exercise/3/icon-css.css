@@ -1,0 +1,34 @@
+.album-square{
+    width: 500px;
+    height: 500px;
+    background-image: url('https://loremflickr.com/500/500');
+    background-size: cover;
+    background-position: center;
+    font-family: arial, sans-serif;
+    color: #FFF;
+    font-size: 100px;
+}
+
+.album-square .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.album-square .overlay i {
+    transform: scale(0);
+    transition: all 0.3s;
+}
+
+.album-square:hover .overlay {
+    opacity: 1;
+}
+
+.album-square:hover .overlay i {
+    transform: scale(1);
+
+}

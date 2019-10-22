@@ -1,0 +1,53 @@
+.boder-1 {
+    display: flex;
+}
+.album-cover{
+    width: 128px;
+    height: 128px;
+    background-image: url('https://loremflickr.com/128/128');
+    background-size: cover;
+    background-position: center;
+    font-family: arial, sans-serif;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.album-cover .overplay {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+.weekly-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 8px;
+    flex-grow: 1;
+}
+
+.weekly-item .info {
+    font-size: 14px;
+    flex-grow: 1;
+
+}
+
+.weekly-item .song-title{
+    margin-bottom: 8px;
+}
+
+.weekly-item .single {
+    font-size: 13px;
+    color: #999;
+}
+
+.weekly-item .view-count {
+    font-size: 13px;
+    color: #999;
+}
